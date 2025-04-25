@@ -3,7 +3,7 @@ This repository documents a Computational Fluid Dynamics (CFD) simulation of air
 
 📄 Project Overview
 The simulation explores the flow dynamics surrounding a truck body, focusing on drag prediction, pressure distribution, and wake structure formation. This setup is a foundational case in external aerodynamics and vehicle design evaluation.
-
+<br>
 🧩 Simulation Pipeline
 
 Fluid Domain Definition
@@ -15,6 +15,7 @@ Inlet and outlet positioned upstream/downstream of the truck
 Symmetry planes used to reduce computational effort
 
 Solid surfaces defined with no-slip conditions
+
 <br>
 
 Meshing Strategy
@@ -25,6 +26,7 @@ Boundary layer meshing near surfaces for viscous effects
 Local mesh refinement in high-gradient regions (e.g., near the truck rear and wheel arches)
 
 Mesh quality assessed using orthogonality and skewness metrics
+
 <br>
 
 CFD Solver Setup
@@ -37,12 +39,14 @@ Turbulence model: SST k-ω or k-ε based on flow conditions
 Solver settings include residual-based convergence checks and advanced discretization schemes
 
 <br>
+
 Boundary Conditions
 Inlet: Velocity or pressure-based (depending on test case), representative of vehicle motion
 
 Outlet: Pressure outlet at ambient conditions
 
 Truck surface: No-slip wall condition
+
 <br>
 
 Symmetry: Applied across central plane of the domain
@@ -56,6 +60,7 @@ Second-order discretization schemes
 Segregated solver or coupled AMG approach used for iterative solution
 
 Robust under-relaxation and time step control for numerical stability
+
 <br>
 
 📊 Post-Processing & Flow Visualization
@@ -69,6 +74,7 @@ Streamlines and pathlines to trace airflow patterns over and behind the truck
 Iso-surfaces used to highlight regions of high vorticity or pressure gradients
 
 <br>
+
 📈 Grid Convergence Study
 
 Mesh sensitivity analysis using 2–3 levels of refinement
@@ -78,10 +84,13 @@ Drag coefficients and flow features monitored across mesh variations
 Error plotted against grid spacing
 
 Ensures that results are mesh-independent and numerically reliable
+
 <br>
 
 📄 README.md: Summary documentation
+
 <br>
+
 💡 Key Takeaways
 
 Accurate modeling of external vehicle aerodynamics
@@ -93,6 +102,7 @@ Effects of mesh density on simulation fidelity
 Understanding of turbulent wake behavior behind bluff bodies
 
 <br>
+
 🛠 Tools Used
 
 ANSYS CFX and CFX-Pre
