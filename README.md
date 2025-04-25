@@ -1,0 +1,2 @@
+# External-Flow-Over-Truck-Geometry-CFD-Simulation-in-ANSYS-CFX
+This repository documents a Computational Fluid Dynamics (CFD) simulation of airflow around a simplified truck model using ANSYS CFX. The analysis focuses on defining the fluid domain, applying appropriate meshing strategies, solver settings, and boundary conditions, and conducting a grid convergence study to validate numerical accuracy.
